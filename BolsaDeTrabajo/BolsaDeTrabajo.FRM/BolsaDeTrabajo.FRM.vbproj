@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A0EE590-79C1-485D-BC8F-7E0C108F941D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BolsaDeTrabajo.FRM.My.MyApplication</StartupObject>
+    <RootNamespace>BolsaDeTrabajo.FRM</RootNamespace>
+    <AssemblyName>BolsaDeTrabajo.FRM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BolsaDeTrabajo.FRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BolsaDeTrabajo.FRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>jobs_craiglist_icon-icons.com_51083.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_areasEstudio.Designer.vb">
+      <DependentUpon>frm_areasEstudio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_areasEstudio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_areasLaborales.Designer.vb">
+      <DependentUpon>frm_areasLaborales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_areasLaborales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_categorias.Designer.vb">
+      <DependentUpon>frm_categorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_categorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_conocimientosRubros.Designer.vb">
+      <DependentUpon>frm_conocimientosRubros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_conocimientosRubros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_conocimientosTipos.Designer.vb">
+      <DependentUpon>frm_conocimientosTipos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_conocimientosTipos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_departamentos.Designer.vb">
+      <DependentUpon>frm_departamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_departamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_documentosTipos.Designer.vb">
+      <DependentUpon>frm_documentosTipos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_documentosTipos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estados.Designer.vb">
+      <DependentUpon>frm_estados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estadosEstudios.Designer.vb">
+      <DependentUpon>frm_estadosEstudios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estadosEstudios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estudiosNiveles.Designer.vb">
+      <DependentUpon>frm_estudiosNiveles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estudiosNiveles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_localidades.Designer.vb">
+      <DependentUpon>frm_localidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_localidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_paises.Designer.vb">
+      <DependentUpon>frm_paises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_paises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_principal.Designer.vb">
+      <DependentUpon>frm_principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_provincias.Designer.vb">
+      <DependentUpon>frm_provincias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_provincias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_puestosLaborales.Designer.vb">
+      <DependentUpon>frm_puestosLaborales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_puestosLaborales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_rubrosLaborales.Designer.vb">
+      <DependentUpon>frm_rubrosLaborales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_rubrosLaborales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_situacionesLaborales.Designer.vb">
+      <DependentUpon>frm_situacionesLaborales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_situacionesLaborales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_areasEstudio.resx">
+      <DependentUpon>frm_areasEstudio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_areasLaborales.resx">
+      <DependentUpon>frm_areasLaborales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_categorias.resx">
+      <DependentUpon>frm_categorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_conocimientosRubros.resx">
+      <DependentUpon>frm_conocimientosRubros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_conocimientosTipos.resx">
+      <DependentUpon>frm_conocimientosTipos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_departamentos.resx">
+      <DependentUpon>frm_departamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_documentosTipos.resx">
+      <DependentUpon>frm_documentosTipos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estados.resx">
+      <DependentUpon>frm_estados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estadosEstudios.resx">
+      <DependentUpon>frm_estadosEstudios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estudiosNiveles.resx">
+      <DependentUpon>frm_estudiosNiveles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_localidades.resx">
+      <DependentUpon>frm_localidades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_paises.resx">
+      <DependentUpon>frm_paises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_principal.resx">
+      <DependentUpon>frm_principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_provincias.resx">
+      <DependentUpon>frm_provincias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_puestosLaborales.resx">
+      <DependentUpon>frm_puestosLaborales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_rubrosLaborales.resx">
+      <DependentUpon>frm_rubrosLaborales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_situacionesLaborales.resx">
+      <DependentUpon>frm_situacionesLaborales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BolsaDeTrabajo.AD\BolsaDeTrabajo.AD.vbproj">
+      <Project>{48C69804-86EA-4C23-9204-5254947210EE}</Project>
+      <Name>BolsaDeTrabajo.AD</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="jobs_craiglist_icon-icons.com_51083.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

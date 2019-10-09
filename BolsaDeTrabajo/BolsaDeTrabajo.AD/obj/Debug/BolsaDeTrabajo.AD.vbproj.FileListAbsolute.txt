@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.pdb
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.xml
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.Resources.resources
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbproj.GenerateResource.Cache
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.dll
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.xml
+C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.pdb
