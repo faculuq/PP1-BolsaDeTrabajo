@@ -13,6 +13,7 @@ Public Class frm_experienciasLaborales
 
         If txt_fechaFin.Text <> Nothing And txt_fechaInicio.Text <> Nothing And txt_nombreEmpresa.Text <> Nothing And txt_descripcion.Text <> Nothing Then
             oExperiencia.AgregarDatos(Session("IdPostulante"), cbo_puestoLaboral.SelectedValue, cbo_rubroEmp.SelectedValue, txt_nombreEmpresa.Text, txt_descripcion.Text, txt_fechaInicio.Text, txt_fechaFin.Text)
+            MsgBox("Datos cargados correctamente", vbInformation, "Experiencias laborales")
         End If
 
     End Sub
