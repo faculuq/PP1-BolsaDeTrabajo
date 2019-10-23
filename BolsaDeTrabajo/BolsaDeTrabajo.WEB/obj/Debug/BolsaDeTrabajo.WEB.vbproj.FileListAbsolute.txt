@@ -15,3 +15,20 @@ C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeT
 C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.dll
 C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.xml
 C:\Users\Dell\Desktop\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.pdb
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.pdb
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.xml
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.Unity.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.pdb
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.xml
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbprojResolveAssemblyReference.cache
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.Resources.resources
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbproj.GenerateResource.Cache
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.dll
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.xml
+C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.pdb

@@ -95,8 +95,10 @@
     <Content Include="frm_datosEstudio.aspx" />
     <Content Include="frm_datosPersonales.aspx" />
     <Content Include="frm_experienciasLaborales.aspx" />
-    <Content Include="frm_pantallaLogin.aspx" />
-    <Content Include="frm_pantallaRegistro.aspx" />
+    <Content Include="frm_inicio.aspx" />
+    <Content Include="frm_Login.aspx" />
+    <Content Include="frm_RegistroEmpresas.aspx" />
+    <Content Include="frm_RegistroPostulante.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -182,18 +184,32 @@
       <DependentUpon>frm_experienciasLaborales.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="frm_pantallaLogin.aspx.designer.vb">
-      <DependentUpon>frm_pantallaLogin.aspx</DependentUpon>
+    <Compile Include="frm_inicio.aspx.designer.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frm_pantallaLogin.aspx.vb">
-      <DependentUpon>frm_pantallaLogin.aspx</DependentUpon>
+    <Compile Include="frm_inicio.aspx.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="frm_pantallaRegistro.aspx.designer.vb">
-      <DependentUpon>frm_pantallaRegistro.aspx</DependentUpon>
+    <Compile Include="frm_Login.aspx.designer.vb">
+      <DependentUpon>frm_Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frm_pantallaRegistro.aspx.vb">
-      <DependentUpon>frm_pantallaRegistro.aspx</DependentUpon>
+    <Compile Include="frm_Login.aspx.vb">
+      <DependentUpon>frm_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_RegistroEmpresas.aspx.designer.vb">
+      <DependentUpon>frm_RegistroEmpresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RegistroEmpresas.aspx.vb">
+      <DependentUpon>frm_RegistroEmpresas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_RegistroPostulante.aspx.designer.vb">
+      <DependentUpon>frm_RegistroPostulante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RegistroPostulante.aspx.vb">
+      <DependentUpon>frm_RegistroPostulante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">

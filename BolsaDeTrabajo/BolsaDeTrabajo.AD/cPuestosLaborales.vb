@@ -27,4 +27,8 @@ Public Class cPuestosLaborales
         Return oDatabase.ExecuteDataSet("PuestosLaboralesBuscarPorId", IdPuestoLaboral)
     End Function
 
+    Public Function BuscarXArea(ByVal IdAreaLaboral As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("PuestosLaboralesBuscarXArea", IdAreaLaboral)
+    End Function
+
 End Class

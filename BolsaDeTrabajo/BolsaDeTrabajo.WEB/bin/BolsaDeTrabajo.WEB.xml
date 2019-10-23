@@ -6,7 +6,263 @@ BolsaDeTrabajo.WEB
 </name>
 </assembly>
 <members>
-<member name="F:BolsaDeTrabajo.WEB.Site.HeadContent">
+<member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.cbo_nivelEstudio">
+	<summary>
+cbo_nivelEstudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.cbo_estadoEstudio">
+	<summary>
+cbo_estadoEstudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.txt_titulo">
+	<summary>
+txt_titulo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.cbo_areaEstudio">
+	<summary>
+cbo_areaEstudio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.txt_institucion">
+	<summary>
+txt_institucion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.txt_fechaInicio">
+	<summary>
+txt_fechaInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.txt_FechaFin">
+	<summary>
+txt_FechaFin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosEstudio.cmb_cargar">
+	<summary>
+cmb_cargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.txt_nombre">
+	<summary>
+txt_nombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.txt_apellido">
+	<summary>
+txt_apellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.cbo_tipoDoc">
+	<summary>
+cbo_tipoDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.txt_numeroDoc">
+	<summary>
+txt_numeroDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.cbo_estadoCivil">
+	<summary>
+cbo_estadoCivil control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.cbo_sitLaboral">
+	<summary>
+cbo_sitLaboral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.txt_fechaNac">
+	<summary>
+txt_fechaNac control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.cmb_cargar">
+	<summary>
+cmb_cargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.txt_email">
+	<summary>
+txt_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.txt_pass1">
+	<summary>
+txt_pass1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.txt_pass2">
+	<summary>
+txt_pass2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroEmpresas.cmb_registrarse">
+	<summary>
+cmb_registrarse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB._Default.Substitution1">
+	<summary>
+Substitution1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB._Default.Wizard1">
+	<summary>
+Wizard1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.Site.HeadContent">
 	<summary>
 HeadContent control.
 </summary>
@@ -54,6 +310,230 @@ MainContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.cbo_areaLaboral">
+	<summary>
+cbo_areaLaboral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.cbo_puestoLaboral">
+	<summary>
+cbo_puestoLaboral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.cbo_rubroEmp">
+	<summary>
+cbo_rubroEmp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.txt_nombreEmpresa">
+	<summary>
+txt_nombreEmpresa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.txt_descripcion">
+	<summary>
+txt_descripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.txt_fechaInicio">
+	<summary>
+txt_fechaInicio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.txt_fechaFin">
+	<summary>
+txt_fechaFin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_experienciasLaborales.cmb_cargar">
+	<summary>
+cmb_cargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroPostulante.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroPostulante.txt_email">
+	<summary>
+txt_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroPostulante.txt_pass1">
+	<summary>
+txt_pass1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroPostulante.txt_pass2">
+	<summary>
+txt_pass2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_RegistroPostulante.cmb_registrarse">
+	<summary>
+cmb_registrarse control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.txt_email">
+	<summary>
+txt_email control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.txt_telCel">
+	<summary>
+txt_telCel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.txt_telFijo">
+	<summary>
+txt_telFijo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.cbo_pais">
+	<summary>
+cbo_pais control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.cbo_provincia">
+	<summary>
+cbo_provincia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.cbo_depto">
+	<summary>
+cbo_depto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.cbo_localidad">
+	<summary>
+cbo_localidad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.txt_calle">
+	<summary>
+txt_calle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.txt_numero">
+	<summary>
+txt_numero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_datosContacto.cmb_cargar">
+	<summary>
+cmb_cargar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_inicio.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_inicio.lbl_nombre">
+	<summary>
+lbl_nombre control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="P:BolsaDeTrabajo.WEB.My.MyWebExtension.Application">
 	<summary>
  Returns information about the current application.
@@ -87,23 +567,7 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.Register.RegisterUser">
-	<summary>
-RegisterUser control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.Register.RegisterUserWizardStep">
-	<summary>
-RegisterUserWizardStep control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.frm_cargarDatos.form1">
+</member><member name="F:BolsaDeTrabajo.WEB.frm_Login.form1">
 	<summary>
 form1 control.
 </summary>
@@ -111,57 +575,25 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:BolsaDeTrabajo.WEB._Default.Substitution1">
+</member><member name="F:BolsaDeTrabajo.WEB.frm_Login.txt_usuario">
 	<summary>
-Substitution1 control.
+txt_usuario control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:BolsaDeTrabajo.WEB._Default.Wizard1">
+</member><member name="F:BolsaDeTrabajo.WEB.frm_Login.txt_password">
 	<summary>
-Wizard1 control.
+txt_password control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.ChangePassword.ChangeUserPassword">
+</member><member name="F:BolsaDeTrabajo.WEB.frm_Login.cmb_inicio">
 	<summary>
-ChangeUserPassword control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.Login2.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.Login.RegisterHyperLink">
-	<summary>
-RegisterHyperLink control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.Login.LoginUser">
-	<summary>
-LoginUser control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.test.form1">
-	<summary>
-form1 control.
+cmb_inicio control.
 </summary>
 	<remarks>
 Auto-generated field.

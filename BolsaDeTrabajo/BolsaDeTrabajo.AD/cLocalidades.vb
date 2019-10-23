@@ -37,4 +37,8 @@ Public Class cLocalidades
         Return ODatabase.ExecuteDataSet("LocalidadesBuscarEstados")
     End Function
 
+    Public Function BuscarXDepto(ByVal IdDepartamento As Integer) As DataSet
+        Return ODatabase.ExecuteDataSet("LocalidadesBuscarXDepto", IdDepartamento)
+    End Function
+
 End Class

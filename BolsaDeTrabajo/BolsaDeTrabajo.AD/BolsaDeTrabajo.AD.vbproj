@@ -85,11 +85,16 @@
     <Compile Include="cConocimientosRubros.vb" />
     <Compile Include="cConocimientosTipos.vb" />
     <Compile Include="cDepartamentos.vb" />
+    <Compile Include="cEmpresas.vb" />
     <Compile Include="cEstados.vb" />
+    <Compile Include="cEstadosCiviles.vb" />
     <Compile Include="cEstadosEstudios.vb" />
+    <Compile Include="cEstudios.vb" />
+    <Compile Include="cExperienciasLaborales.vb" />
     <Compile Include="cLocalidades.vb" />
     <Compile Include="cNivelesEstudios.vb" />
     <Compile Include="cPaises.vb" />
+    <Compile Include="cPostulantes.vb" />
     <Compile Include="cProvincias.vb" />
     <Compile Include="cPuestosLaborales.vb" />
     <Compile Include="cRubrosLaborales.vb" />
