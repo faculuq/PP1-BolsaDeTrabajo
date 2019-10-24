@@ -12,10 +12,9 @@
 <body>
     <form id="form1" runat="server">
    <ul id="saturday">
-  <li><a href="frm_informacionEmpresa.aspx" ><span>informacionEmpresa</span></a></li>
+  <li><a href="frm_informacionEmpresa.aspx" ><span>Informacion Empresa</span></a></li>
   <li><a href="frm_datosContactoEmpresa.aspx" ><span>Datos de Contacto Empresa</span></a></li>
-  <li><a href="frm_datosEstudio.aspx"><span>Estudios</span></a></li>
-  <li><a href="frm_experienciasLaborales.aspx"class="current"><span>Experiencias Laborales</span></a></li>
+ 
  </ul><br />
  <div>
      <table style="width:100%;">
