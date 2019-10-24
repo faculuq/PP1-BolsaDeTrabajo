@@ -14,6 +14,7 @@
     <AssemblyName>BolsaDeTrabajo.WEB</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,6 +92,8 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="frm_DatosContactoEmpresa.aspx" />
+    <Content Include="frm_InformacionEmpresa.aspx" />
     <Content Include="frm_datosContacto.aspx" />
     <Content Include="frm_datosEstudio.aspx" />
     <Content Include="frm_datosPersonales.aspx" />
@@ -155,6 +158,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatosContactoEmpresa.aspx.designer.vb">
+      <DependentUpon>frm_DatosContactoEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatosContactoEmpresa.aspx.vb">
+      <DependentUpon>frm_DatosContactoEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_InformacionEmpresa.aspx.designer.vb">
+      <DependentUpon>frm_InformacionEmpresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_InformacionEmpresa.aspx.vb">
+      <DependentUpon>frm_InformacionEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_datosContacto.aspx.designer.vb">
       <DependentUpon>frm_datosContacto.aspx</DependentUpon>

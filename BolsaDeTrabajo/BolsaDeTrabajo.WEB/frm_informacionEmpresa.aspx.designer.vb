@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class 
+Partial Public Class frm
 
     '''<summary>
     '''Control Head1.
@@ -77,13 +77,13 @@ Partial Public Class
     Protected WithEvents txt_Fundacion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control TextBox1.
+    '''Control cbo_IdRubro.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cbo_IdRubro As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control cmd_GuardarDatos.

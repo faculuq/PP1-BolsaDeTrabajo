@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class 
+Partial Public Class frm_DatosContactoEmpresa
 
     '''<summary>
     '''Control Head1.

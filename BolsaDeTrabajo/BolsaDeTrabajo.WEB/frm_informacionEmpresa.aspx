@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_informacionEmpresa.aspx.vb"  %>
+﻿-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_InformacionEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -127,9 +127,10 @@
                  <asp:TextBox ID="txt_Fundacion" runat="server"></asp:TextBox>
              </td>
              <td class="style2">
-                 Rubro </td>
+     Rubro </td>
              <td class="style4" id="lt_IdRubro">
-                 <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                 <asp:DropDownList ID="cbo_IdRubro" runat="server">
+                 </asp:DropDownList>
              </td>
              <td>
                  &nbsp;</td>
@@ -148,11 +149,11 @@
          </tr>
          <tr>
              <td class="style1">
-                 &nbsp;</td>
+     &nbsp;</td>
              <td class="style3">
                  <%-- <input id="cmd_GuardarDatos" runat="server" type="button" value="Guardar Datos" 
                     onserverclick="cmd_GuardarDatos()" /></td>--%>
-                 <asp:Button ID="cmd_GuardarDatos" runat="server" Text="Button" />
+                 <asp:Button ID="cmd_GuardarDatos" runat="server" Text="Guardar" />
              <td class="style2">
                  &nbsp;</td>
              <td class="style4">

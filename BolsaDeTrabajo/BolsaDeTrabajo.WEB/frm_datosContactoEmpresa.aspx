@@ -1,7 +1,7 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_datosContactoEmpresa.aspx.vb" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_DatosContactoEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm_DatosContactoEmpresa" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- para mi tienen que ir los mismos datos de contacto que usamos en los postulantes --> 
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
     <title>Bolsa de Trabajo</title>
@@ -12,9 +12,10 @@
 <body>
     <form id="form1" runat="server">
    <ul id="saturday">
-  <li><a href="frm_informacionEmpresa.aspx" ><span>Informacion Empresa</span></a></li>
+  <li><a href="frm_informacionEmpresa.aspx" ><span>informacionEmpresa</span></a></li>
   <li><a href="frm_datosContactoEmpresa.aspx" ><span>Datos de Contacto Empresa</span></a></li>
- 
+  <li><a href="frm_datosEstudio.aspx"><span>Estudios</span></a></li>
+  <li><a href="frm_experienciasLaborales.aspx"class="current"><span>Experiencias Laborales</span></a></li>
  </ul><br />
  <div>
      <table style="width:100%;">
