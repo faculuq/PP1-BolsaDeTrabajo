@@ -18,7 +18,7 @@ Public Class frm_RegistroEmpresas
                 resultado = oUsuario.Agregar(txt_email.Text, txt_pass1.Text)
                 Session("IdUsuario") = resultado
                 oEmpresa.Agregar(resultado)
-                Response.Redirect("frm_datosPersonales.aspx") 'cambiar a frm de datos empresa
+                Response.Redirect("frm_InformacionEmpresa.aspx") 'cambiar a frm de datos empresa
                 MsgBox("Registro Correcto", vbInformation, "Resgistrarse")
 
             Else

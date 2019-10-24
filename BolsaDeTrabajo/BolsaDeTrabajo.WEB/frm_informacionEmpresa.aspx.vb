@@ -8,14 +8,25 @@ Public Class frm
     End Sub
 
     Protected Sub cmd_GuardarDatos_Click(sender As Object, e As EventArgs) Handles cmd_GuardarDatos.Click
+
         Dim oEmpresas As New cEmpresas
 
         If txt_nombre.Text <> Nothing And txt_RazonSocial.Text <> Nothing And cbo_tipoDoc.SelectedValue <> Nothing And txt_numeroDoc.Text <> Nothing And txt_Fundacion.Text <> Nothing And cbo_IdRubro.SelectedValue <> Nothing Then
-            oEmpresas.EmpresaGuardarInformacion(Session("IdUsuario"), txt_nombre.Text, txt_RazonSocial.Text, cbo_tipoDoc.SelectedValue, txt_numeroDoc.Text, txt_Fundacion.Text, cbo_IdRubro.SelectedValue)
+
+            oEmpresas.GuardarInformacion(Session("IdUsuario"), txt_nombre.Text, txt_RazonSocial.Text, cbo_tipoDoc.SelectedValue, txt_numeroDoc.Text, txt_Fundacion.Text, cbo_IdRubro.SelectedValue)
             Response.Redirect("frm_datosContactoEmpresa.aspx")
             MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
+
         Else
+
             MsgBox("Complete todos los campos para continuar", vbInformation, "Datos Personales")
+
         End If
+
     End Sub
+
+    Private Sub CargarRubros()
+
+    End Sub
+
 End Class

@@ -1,4 +1,4 @@
-﻿-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_InformacionEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_InformacionEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -124,7 +124,7 @@
              <td class="style1">
                  Fecha Fundacion </td>
              <td class="style3">
-                 <asp:TextBox ID="txt_Fundacion" runat="server"></asp:TextBox>
+                 <asp:TextBox ID="txt_Fundacion" runat="server" TextMode="Date"></asp:TextBox>
              </td>
              <td class="style2">
      Rubro </td>
