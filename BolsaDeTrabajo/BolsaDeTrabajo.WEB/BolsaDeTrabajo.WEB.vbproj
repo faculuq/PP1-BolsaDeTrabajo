@@ -92,13 +92,18 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="frm_datosContactoEditarP.aspx" />
     <Content Include="frm_DatosContactoEmpresa.aspx" />
+    <Content Include="frm_datosEstudioEditar.aspx" />
+    <Content Include="frm_datosPersonalesEditarP.aspx" />
+    <Content Include="frm_experienciasLaboralesEditar.aspx" />
     <Content Include="frm_InformacionEmpresa.aspx" />
     <Content Include="frm_datosContacto.aspx" />
     <Content Include="frm_datosEstudio.aspx" />
     <Content Include="frm_datosPersonales.aspx" />
     <Content Include="frm_experienciasLaborales.aspx" />
-    <Content Include="frm_inicio.aspx" />
+    <Content Include="frm_inicioEmpresa.aspx" />
+    <Content Include="frm_inicioPostulante.aspx" />
     <Content Include="frm_Login.aspx" />
     <Content Include="frm_RegistroEmpresas.aspx" />
     <Content Include="frm_RegistroPostulante.aspx" />
@@ -159,11 +164,39 @@
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frm_datosContactoEditarP.aspx.designer.vb">
+      <DependentUpon>frm_datosContactoEditarP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_datosContactoEditarP.aspx.vb">
+      <DependentUpon>frm_datosContactoEditarP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="frm_DatosContactoEmpresa.aspx.designer.vb">
       <DependentUpon>frm_DatosContactoEmpresa.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_DatosContactoEmpresa.aspx.vb">
       <DependentUpon>frm_DatosContactoEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_datosEstudioEditar.aspx.designer.vb">
+      <DependentUpon>frm_datosEstudioEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_datosEstudioEditar.aspx.vb">
+      <DependentUpon>frm_datosEstudioEditar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_datosPersonalesEditarP.aspx.designer.vb">
+      <DependentUpon>frm_datosPersonalesEditarP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_datosPersonalesEditarP.aspx.vb">
+      <DependentUpon>frm_datosPersonalesEditarP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_experienciasLaboralesEditar.aspx.designer.vb">
+      <DependentUpon>frm_experienciasLaboralesEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_experienciasLaboralesEditar.aspx.vb">
+      <DependentUpon>frm_experienciasLaboralesEditar.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_InformacionEmpresa.aspx.designer.vb">
@@ -201,11 +234,18 @@
       <DependentUpon>frm_experienciasLaborales.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="frm_inicio.aspx.designer.vb">
-      <DependentUpon>frm_inicio.aspx</DependentUpon>
+    <Compile Include="frm_inicioEmpresa.aspx.designer.vb">
+      <DependentUpon>frm_inicioEmpresa.aspx</DependentUpon>
     </Compile>
-    <Compile Include="frm_inicio.aspx.vb">
-      <DependentUpon>frm_inicio.aspx</DependentUpon>
+    <Compile Include="frm_inicioEmpresa.aspx.vb">
+      <DependentUpon>frm_inicioEmpresa.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_inicioPostulante.aspx.designer.vb">
+      <DependentUpon>frm_inicioPostulante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicioPostulante.aspx.vb">
+      <DependentUpon>frm_inicioPostulante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_Login.aspx.designer.vb">

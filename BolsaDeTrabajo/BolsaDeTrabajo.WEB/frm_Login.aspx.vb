@@ -18,13 +18,24 @@ Public Class frm_Login
         If oDs.Tables(0).Rows.Count > 0 Then
 
             Session("IdUsuario") = oDs.Tables(0).Rows(0).Item("IdUsuario")
-            Response.Redirect("frm_inicio.aspx")
+
 
         Else
 
             MsgBox("El usuario o contraseña, no coinciden con un usuario válido", MsgBoxStyle.Exclamation, "Iniciar Sesión")
 
         End If
+
+        If oDs.Tables(0).Rows(0).Item("IdTipoUsuario") = 1 Then
+
+            Response.Redirect("frm_inicioEmpresa.aspx")
+
+        Else
+
+            Response.Redirect("frm_inicioPostulante.aspx")
+
+        End If
+
 
     End Sub
 End Class

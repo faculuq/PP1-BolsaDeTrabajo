@@ -21,30 +21,23 @@
      <table style="width:100%;">
          <tr>
              <td>
-                 Email</td>
-             <td>
-                 <asp:TextBox ID="txt_email" runat="server"></asp:TextBox>
-             </td>
-             <td>
                  Telefono Celular</td>
              <td>
                  <asp:TextBox ID="txt_telCel" runat="server"></asp:TextBox>
              </td>
-         </tr>
-         <tr>
              <td>
                  Telefono Fijo</td>
              <td>
                  <asp:TextBox ID="txt_telFijo" runat="server"></asp:TextBox>
              </td>
+         </tr>
+         <tr>
              <td>
                  Pais</td>
              <td>
                  <asp:DropDownList ID="cbo_pais" runat="server" Height="16px" Width="128px">
                  </asp:DropDownList>
              </td>
-         </tr>
-         <tr>
              <td>
                  Provincia</td>
              <td>
@@ -52,6 +45,8 @@
                      AutoPostBack="True">
                  </asp:DropDownList>
              </td>
+         </tr>
+         <tr>
              <td>
                  Departamento</td>
              <td>
@@ -59,8 +54,6 @@
                      AutoPostBack="True">
                  </asp:DropDownList>
              </td>
-         </tr>
-         <tr>
              <td>
                  Localidad</td>
              <td>
@@ -68,18 +61,14 @@
                      AutoPostBack="True">
                  </asp:DropDownList>
              </td>
-             <td rowspan "2">
+         </tr>
+         <tr>
+             <td>
                  Calle</td>
              <td>
                  <asp:TextBox ID="txt_calle" runat="server"></asp:TextBox>
              </td>
-         </tr>
-         <tr>
-             <td>
-                 &nbsp;</td>
-             <td>
-                 &nbsp;</td>
-             <td>
+             <td rowspan "2">
                  Numero</td>
              <td>
                  <asp:TextBox ID="txt_numero" runat="server"></asp:TextBox>

@@ -15,7 +15,7 @@ Public Class frm_RegistroEmpresas
         If txt_email.Text <> Nothing And txt_pass1.Text <> Nothing And txt_pass2.Text <> Nothing Then
             If txt_pass1.Text = txt_pass2.Text Then
                 Dim resultado As Integer
-                resultado = oUsuario.Agregar(txt_email.Text, txt_pass1.Text)
+                resultado = oUsuario.Agregar(txt_email.Text, txt_pass1.Text, 1)
                 Session("IdUsuario") = resultado
                 oEmpresa.Agregar(resultado)
                 Response.Redirect("frm_InformacionEmpresa.aspx") 'cambiar a frm de datos empresa

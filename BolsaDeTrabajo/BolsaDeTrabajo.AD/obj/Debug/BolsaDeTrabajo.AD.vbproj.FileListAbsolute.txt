@@ -21,3 +21,12 @@ C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaD
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.dll
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.xml
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbprojResolveAssemblyReference.cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.Resources.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbproj.GenerateResource.Cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.pdb

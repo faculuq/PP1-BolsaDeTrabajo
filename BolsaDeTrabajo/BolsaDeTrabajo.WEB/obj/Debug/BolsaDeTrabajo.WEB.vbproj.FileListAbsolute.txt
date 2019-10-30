@@ -32,3 +32,20 @@ C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaD
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.dll
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.xml
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbprojResolveAssemblyReference.cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.Resources.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbproj.GenerateResource.Cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.WEB.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.Unity.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.xml

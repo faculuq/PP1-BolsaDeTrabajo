@@ -21,4 +21,8 @@ Public Class cEstudios
         Return oDatabase.ExecuteScalar("EstudiosAgregarDatos", IdPostulante, IdNivelEstudio, IdEstadoEstudio, Titulo, IdAreaEstudio, Institucion, FechaInicio, FechaFin)
     End Function
 
+    Public Function BuscarPorPostulante(ByVal IdPostulante As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("EstudiosBuscarPorPostulante", IdPostulante)
+    End Function
+
 End Class

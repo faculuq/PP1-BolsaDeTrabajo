@@ -29,4 +29,8 @@ Public Class cPostulantes
         Return oDatabase.ExecuteDataSet("PostulanteBuscarEmail", IdUsuario)
     End Function
 
+    Public Function BuscarPorUsuario(ByVal IdUsuario As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("PostulanteBuscarPorUsuario", IdUsuario)
+    End Function
+
 End Class

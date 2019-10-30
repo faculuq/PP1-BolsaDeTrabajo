@@ -8,7 +8,7 @@ Public Class frm_datosContacto
         If Page.IsPostBack = False Then
 
             CargarPaises()
-            MostrarEmail()
+
             CargarProvincias()
             CargarDepartamentos()
             CargarLocalidades()
@@ -82,17 +82,6 @@ Public Class frm_datosContacto
         cbo_localidad.DataTextField = ods.Tables(0).Columns("Nombre").ToString
         cbo_localidad.DataValueField = ods.Tables(0).Columns("IdLocalidad").ToString
         cbo_localidad.DataBind()
-
-    End Sub
-
-    Private Sub MostrarEmail()
-
-        Dim ods As New DataSet
-        Dim oPostulante As New cPostulantes
-
-
-        ods = oPostulante.BuscarMail(Session("IdUsuario"))
-        txt_email.Text = ods.Tables(0).Columns("Email").ToString
 
     End Sub
 

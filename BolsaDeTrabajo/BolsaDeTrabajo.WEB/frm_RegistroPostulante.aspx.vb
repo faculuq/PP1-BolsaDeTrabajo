@@ -21,7 +21,7 @@ Public Class frm_RegistroPostulante
 
                 Dim iduser As Integer
                 Dim idpos As Integer
-                iduser = oUsuario.Agregar(txt_email.Text, txt_pass1.Text)
+                iduser = oUsuario.Agregar(txt_email.Text, txt_pass1.Text, 2)
                 Session("IdUsuario") = iduser
                 idpos = oPostulante.Agregar(iduser)
                 Session("IdPostulante") = idpos

@@ -21,4 +21,8 @@ Public Class cExperienciasLaborales
         Return oDatabase.ExecuteScalar("ExperienciasLaboralesAgregarDatos", IdPostulante, IdPuesto, IdRubro, Nombre, Descripcion, FechaInicio, FechaFin)
     End Function
 
+    Public Function BuscarPorPostulante(ByVal IdPostulante As Integer) As DataSet
+        Return oDatabase.ExecuteDataSet("ExperienciasBuscarPorPostulante", IdPostulante)
+    End Function
+
 End Class
