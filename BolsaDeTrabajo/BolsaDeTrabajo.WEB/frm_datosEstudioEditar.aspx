@@ -69,14 +69,14 @@
              <td>
                  Fecha de Inicio</td>
              <td>
-                 <asp:TextBox ID="txt_fechaInicio" runat="server" TextMode="Date"></asp:TextBox>
+                 <asp:TextBox ID="txt_fechaInicio" runat="server"></asp:TextBox>
              </td>
          </tr>
          <tr>
              <td class="style1">
                  Fecha de Fin</td>
              <td class="style2">
-                 <asp:TextBox ID="txt_FechaFin" runat="server" TextMode="Date"></asp:TextBox>
+                 <asp:TextBox ID="txt_FechaFin" runat="server"></asp:TextBox>
              </td>
              <td>
                  &nbsp;</td>

@@ -11,6 +11,8 @@ Public Class frm_Login
 
         Dim oDs As New DataSet
         Dim oUsuario As New cUsuarios
+        Dim oPostulante As New cPostulantes
+        Dim odsp As New DataSet
 
 
         oDs = oUsuario.BuscarPorLoginPass(txt_usuario.Text, txt_password.Text)
@@ -18,7 +20,9 @@ Public Class frm_Login
         If oDs.Tables(0).Rows.Count > 0 Then
 
             Session("IdUsuario") = oDs.Tables(0).Rows(0).Item("IdUsuario")
-
+            odsp = oPostulante.BuscarIdPostulante(Session("IdUsuario"))
+            Session("IdPostulante") = odsp.Tables(0).Rows(0).Item("IdPostulante")
+            'crear procedure que busque el id al iniciar el frm
 
         Else
 

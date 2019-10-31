@@ -1,16 +1,14 @@
 ﻿Imports BolsaDeTrabajo.AD
 
 Public Class frm_datosContactoEditarP
+
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
         If Page.IsPostBack = False Then
 
-            CargarPaises()
-            CargarProvincias()
-            CargarDepartamentos()
-            CargarLocalidades()
+            Inicio()
 
         End If
 
@@ -46,7 +44,7 @@ Public Class frm_datosContactoEditarP
     Private Sub CargarProvincias()
 
         Dim ods As New DataSet
-        Dim OProvincia As New CProvincias
+        Dim OProvincia As New cProvincias
 
         ods = OProvincia.BuscarXPais(cbo_pais.SelectedValue)
         cbo_provincia.DataSource = ods.Tables(0)
@@ -97,6 +95,70 @@ Public Class frm_datosContactoEditarP
     Protected Sub cbo_depto_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles cbo_depto.SelectedIndexChanged
 
         CargarLocalidades()
+
+    End Sub
+
+    Private Sub CargarDatos()
+
+        Dim ods As New DataSet
+        Dim oPostulante As New cPostulantes
+
+        ods = oPostulante.BuscarPorUsuario(Session("IdUsuario"))
+
+        If ods.Tables(0).Rows.Count > 0 Then
+
+            txt_telCel.Text = (ods.Tables(0).Rows(0).Item("TelefonoCelular"))
+            txt_telFijo.Text = (ods.Tables(0).Rows(0).Item("TelefonoFijo"))
+            cbo_localidad.Text = (ods.Tables(0).Rows(0).Item("IdLocalidad"))
+            txt_calle.Text = (ods.Tables(0).Rows(0).Item("Calle"))
+            txt_numero.Text = (ods.Tables(0).Rows(0).Item("Numero"))
+
+        End If
+
+    End Sub
+
+    Private Sub HabilitarEdicion()
+
+        txt_calle.Enabled = True
+        txt_numero.Enabled = True
+        txt_telCel.Enabled = True
+        txt_telFijo.Enabled = True
+        cbo_depto.Enabled = True
+        cbo_localidad.Enabled = True
+        cbo_pais.Enabled = True
+        cbo_provincia.Enabled = True
+        cmb_cargar.Enabled = True
+
+    End Sub
+
+    Private Sub DeshabilitarEdicion()
+
+        txt_calle.Enabled = False
+        txt_numero.Enabled = False
+        txt_telCel.Enabled = False
+        txt_telFijo.Enabled = False
+        cbo_depto.Enabled = False
+        cbo_localidad.Enabled = False
+        cbo_pais.Enabled = False
+        cbo_provincia.Enabled = False
+        cmb_cargar.Enabled = False
+
+    End Sub
+
+    Private Sub Inicio()
+
+        CargarPaises()
+        CargarProvincias()
+        CargarDepartamentos()
+        CargarLocalidades()
+        CargarDatos()
+        DeshabilitarEdicion()
+
+    End Sub
+
+    Protected Sub cmb_editar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles cmb_editar.Click
+
+        HabilitarEdicion()
 
     End Sub
 

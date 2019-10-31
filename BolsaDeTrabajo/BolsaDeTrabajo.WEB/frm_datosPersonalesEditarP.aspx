@@ -79,7 +79,7 @@
              <td class="style1">
                  Fecha de Nacimiento</td>
              <td class="style3">
-                 <asp:TextBox ID="txt_fechaNac" runat="server" TextMode="Date"></asp:TextBox>
+                 <asp:TextBox ID="txt_fechaNac" runat="server"></asp:TextBox>
              </td>
              <td class="style2">
                  &nbsp;</td>

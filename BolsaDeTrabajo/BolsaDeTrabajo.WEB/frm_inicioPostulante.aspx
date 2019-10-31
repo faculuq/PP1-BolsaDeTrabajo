@@ -10,7 +10,13 @@
     <form id="form1" runat="server">
     <div>
     
+        <asp:Label ID="lbl_user" runat="server" Text="Label"></asp:Label>
+&nbsp;
+        <asp:Label ID="lbl_poss" runat="server" Text="Label"></asp:Label>
+    
     </div>
+    <asp:Repeater ID="Repeater1" runat="server">
+    </asp:Repeater>
     </form>
 </body>
 </html>

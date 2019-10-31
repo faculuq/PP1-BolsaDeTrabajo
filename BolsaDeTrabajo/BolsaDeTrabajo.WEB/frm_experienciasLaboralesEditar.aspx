@@ -81,12 +81,12 @@
              <td class="style2">
                  Fecha de Inicio</td>
              <td class="style1">
-                 <asp:TextBox ID="txt_fechaInicio" runat="server" TextMode="Date"></asp:TextBox>
+                 <asp:TextBox ID="txt_fechaInicio" runat="server"></asp:TextBox>
              </td>
              <td>
                  Fecha de Fin</td>
              <td>
-                 <asp:TextBox ID="txt_fechaFin" runat="server" TextMode="Date"></asp:TextBox>
+                 <asp:TextBox ID="txt_fechaFin" runat="server"></asp:TextBox>
              </td>
          </tr>
          <tr>
