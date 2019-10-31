@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_DatosContactoEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm_DatosContactoEmpresa" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_DatosContactoEmpresaEditar.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -95,7 +95,9 @@
                  <asp:Button ID="cmb_cargarE" runat="server" Text="Guardar Cambios" />
              </td>
              <td>
-                 &nbsp;</td>
+                 <asp:Button ID="cmdEditarInformacion" runat="server" 
+                     Text="Editar Informacion" />
+             </td>
              <td>
                  &nbsp;</td>
              <td>
@@ -126,3 +128,4 @@
  </form>
 </body>
 </html>
+

@@ -30,3 +30,12 @@ C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\Bo
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.dll
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.xml
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.pdb
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.dll
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.pdb
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\bin\Debug\BolsaDeTrabajo.AD.xml
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbprojResolveAssemblyReference.cache
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.Resources.resources
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.vbproj.GenerateResource.Cache
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.dll
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.xml
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.AD\obj\Debug\BolsaDeTrabajo.AD.pdb

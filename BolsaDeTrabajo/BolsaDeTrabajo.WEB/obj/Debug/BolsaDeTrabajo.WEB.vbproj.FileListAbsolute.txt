@@ -49,3 +49,9 @@ C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microso
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\Microsoft.Practices.Unity.Interception.dll
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.pdb
 C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\bin\BolsaDeTrabajo.AD.xml
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbprojResolveAssemblyReference.cache
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.Resources.resources
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.vbproj.GenerateResource.Cache
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.dll
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.xml
+C:\Users\Daniele\Documents\GitHub\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.WEB\obj\Debug\BolsaDeTrabajo.WEB.pdb
