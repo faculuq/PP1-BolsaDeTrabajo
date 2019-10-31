@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frm
+Partial Public Class frm_InformacionEmpresaEditar
 
     '''<summary>
     '''Control Head1.
@@ -93,4 +93,13 @@ Partial Public Class frm
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents cmd_GuardarDatos As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control cmdEditarInformacion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmdEditarInformacion As Global.System.Web.UI.WebControls.Button
 End Class

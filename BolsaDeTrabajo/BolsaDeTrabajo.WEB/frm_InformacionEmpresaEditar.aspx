@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_InformacionEmpresa.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="frm_InformacionEmpresaEditar.aspx.vb" Inherits="BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -151,7 +151,9 @@
              <td class="style3">
                  <asp:Button ID="cmd_GuardarDatos" runat="server" Text="Guardar Cambios" />
              <td class="style2">
-                 &nbsp;</td>
+                 <asp:Button ID="cmdEditarInformacion" runat="server" Text="Editar Informacion" 
+                     Width="141px" />
+             </td>
              <td class="style4">
                  &nbsp;</td>
              <td>

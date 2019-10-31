@@ -33,8 +33,8 @@ Public Class frm_localidades
                 Case EstadodelFormulario.eConsulta
 
                     Limpiar()
-                    DesHabililarEdicion()
-                    DesHabililarComandos()
+                    DesHabilitarEdicion()
+                    DesHabilitarComandos()
                     cmb_agregar.Enabled = True
                     cmb_aceptar.Enabled = False
                     cmb_cancelar.Enabled = False
@@ -48,11 +48,11 @@ Public Class frm_localidades
 
                 Case EstadodelFormulario.eAgregar
 
-                    HabililarEdicion()
+                    HabilitarEdicion()
                     txt_id.Enabled = False
                     cmb_aceptar.Enabled = True
                     cmb_cancelar.Enabled = True
-                    DesHabililarComandos()
+                    DesHabilitarComandos()
                     grl_grilla.Enabled = False
                     Limpiar()
                     txt_nombre.Focus()
@@ -65,11 +65,11 @@ Public Class frm_localidades
 
                 Case EstadodelFormulario.eEditar
 
-                    HabililarEdicion()
+                    HabilitarEdicion()
                     txt_id.Enabled = False
                     cmb_aceptar.Enabled = True
                     cmb_cancelar.Enabled = True
-                    DesHabililarComandos()
+                    DesHabilitarComandos()
                     grl_grilla.Enabled = False
                     Panel.BackColor = Color.Red
                     lbl_mensaje.Text = "Modificando"
@@ -182,7 +182,7 @@ Public Class frm_localidades
 
     End Sub
 
-    Private Sub HabililarEdicion()
+    Private Sub HabilitarEdicion()
 
         txt_id.Enabled = True
         txt_nombre.Enabled = True
@@ -194,7 +194,7 @@ Public Class frm_localidades
 
     End Sub
 
-    Private Sub DesHabililarEdicion()
+    Private Sub DesHabilitarEdicion()
 
         txt_id.Enabled = False
         txt_nombre.Enabled = False
@@ -206,7 +206,7 @@ Public Class frm_localidades
 
     End Sub
 
-    Private Sub HabililarComandos()
+    Private Sub HabilitarComandos()
 
         cmb_agregar.Enabled = True
         cmb_modificar.Enabled = True
@@ -214,7 +214,7 @@ Public Class frm_localidades
 
     End Sub
 
-    Private Sub DesHabililarComandos()
+    Private Sub DesHabilitarComandos()
 
         cmb_agregar.Enabled = False
         cmb_modificar.Enabled = False

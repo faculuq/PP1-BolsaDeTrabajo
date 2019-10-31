@@ -25,4 +25,9 @@ Public Class cEmpresas
         Return oDatabase.ExecuteScalar("EmpresasGuardarDatosContacto", IdUsuario, Telefono, IdLocalidad, Calle, Numero)
     End Function
 
+    Public Function EmpresaBuscarPorUsuario(ByVal IdUsuario As Integer) As Double
+        Return oDatabase.ExecuteScalar("EmpresaBuscarPorUsuario", IdUsuario)
+    End Function
+
+
 End Class

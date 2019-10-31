@@ -94,6 +94,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="frm_datosContactoEditarP.aspx" />
     <Content Include="frm_DatosContactoEmpresa.aspx" />
+    <Content Include="frm_DatosContactoEmpresaEditar.aspx" />
     <Content Include="frm_datosEstudioEditar.aspx" />
     <Content Include="frm_datosPersonalesEditarP.aspx" />
     <Content Include="frm_experienciasLaboralesEditar.aspx" />
@@ -102,6 +103,7 @@
     <Content Include="frm_datosEstudio.aspx" />
     <Content Include="frm_datosPersonales.aspx" />
     <Content Include="frm_experienciasLaborales.aspx" />
+    <Content Include="frm_InformacionEmpresaEditar.aspx" />
     <Content Include="frm_inicioEmpresa.aspx" />
     <Content Include="frm_inicioPostulante.aspx" />
     <Content Include="frm_Login.aspx" />
@@ -178,6 +180,13 @@
       <DependentUpon>frm_DatosContactoEmpresa.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="frm_DatosContactoEmpresaEditar.aspx.designer.vb">
+      <DependentUpon>frm_DatosContactoEmpresaEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatosContactoEmpresaEditar.aspx.vb">
+      <DependentUpon>frm_DatosContactoEmpresaEditar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="frm_datosEstudioEditar.aspx.designer.vb">
       <DependentUpon>frm_datosEstudioEditar.aspx</DependentUpon>
     </Compile>
@@ -233,6 +242,12 @@
     <Compile Include="frm_experienciasLaborales.aspx.vb">
       <DependentUpon>frm_experienciasLaborales.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_InformacionEmpresaEditar.aspx.designer.vb">
+      <DependentUpon>frm_InformacionEmpresaEditar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_InformacionEmpresaEditar.aspx.vb">
+      <DependentUpon>frm_InformacionEmpresaEditar.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_inicioEmpresa.aspx.designer.vb">
       <DependentUpon>frm_inicioEmpresa.aspx</DependentUpon>

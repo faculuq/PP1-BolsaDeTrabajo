@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frm
+Partial Public Class frm_DatosContactoEmpresaEditar
 
     '''<summary>
     '''Control Head1.
@@ -32,65 +32,92 @@ Partial Public Class frm
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control txt_nombre.
+    '''Control txt_email.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_nombre As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_email As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control txt_RazonSocial.
+    '''Control txt_telFijo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_RazonSocial As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_telFijo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Control cbo_tipoDoc.
+    '''Control cbo_pais.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cbo_tipoDoc As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cbo_pais As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control txt_numeroDoc.
+    '''Control cbo_provincia.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_numeroDoc As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cbo_provincia As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control txt_Fundacion.
+    '''Control cbo_depto.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txt_Fundacion As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents cbo_depto As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control cbo_IdRubro.
+    '''Control cbo_localidad.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cbo_IdRubro As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cbo_localidad As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control cmd_GuardarDatos.
+    '''Control txt_calle.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cmd_GuardarDatos As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txt_calle As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control txt_numero.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents txt_numero As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control cmb_cargarE.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmb_cargarE As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control cmdEditarInformacion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents cmdEditarInformacion As Global.System.Web.UI.WebControls.Button
 End Class
