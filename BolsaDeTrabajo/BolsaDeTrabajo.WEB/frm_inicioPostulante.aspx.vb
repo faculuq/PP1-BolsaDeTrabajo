@@ -1,10 +1,21 @@
-﻿Public Class frm_inicioPostulante
+﻿Imports BolsaDeTrabajo.AD
+
+Public Class frm_inicioPostulante
     Inherits System.Web.UI.Page
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        BuscarAvisos()
+    End Sub
 
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+    Private Sub BuscarAvisos()
 
-        lbl_user.Text = Session("IdUsuario")
-        lbl_poss.Text = Session("IdPostulante")
+        Dim ods As New DataSet
+        Dim oAviso As New cavisos
+
+        ods = oAviso.BuscarAvisos
+
+        Me.Repeater1.DataMember = "IdAvisoPublicado"
+        Me.Repeater1.DataSource = ods
+        Me.Repeater1.DataBind()
 
     End Sub
 

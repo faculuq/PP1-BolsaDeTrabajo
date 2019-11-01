@@ -7,7 +7,6 @@ Public Class frm_editarDatosPersonalesP
 
         If Page.IsPostBack = False Then
 
-            Session("IdUsuario") = 17
             Inicio()
 
         End If

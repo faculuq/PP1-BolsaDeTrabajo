@@ -1,0 +1,20 @@
+﻿Imports Microsoft.VisualBasic
+Imports System.DataSqlClient
+Imports System.Data
+Imports System.IO
+Imports Microsoft.Practices.EnterpriseLibrary.Data
+Imports System.Configuration
+
+Public Class cAvisos
+
+    Dim oDatabase As Database
+
+    Public Sub New()
+        oDatabase = DatabaseFactory.CreateDatabase("Conn")
+    End Sub
+
+    Public Function BuscarAvisos() As DataSet
+        Return oDatabase.ExecuteDataSet("AvisosBuscar")
+    End Function
+
+End Class

@@ -81,6 +81,7 @@
   <ItemGroup>
     <Compile Include="cAreasEstudio.vb" />
     <Compile Include="cAreasLaborales.vb" />
+    <Compile Include="cAvisos.vb" />
     <Compile Include="cCategorias.vb" />
     <Compile Include="cConocimientosRubros.vb" />
     <Compile Include="cConocimientosTipos.vb" />

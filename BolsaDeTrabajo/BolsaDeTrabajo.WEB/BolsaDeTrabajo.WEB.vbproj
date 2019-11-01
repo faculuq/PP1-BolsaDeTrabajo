@@ -107,6 +107,7 @@
     <Content Include="frm_inicioEmpresa.aspx" />
     <Content Include="frm_inicioPostulante.aspx" />
     <Content Include="frm_Login.aspx" />
+    <Content Include="frm_misPostulaciones.aspx" />
     <Content Include="frm_RegistroEmpresas.aspx" />
     <Content Include="frm_RegistroPostulante.aspx" />
     <Content Include="Styles\Site.css" />
@@ -261,13 +262,20 @@
     </Compile>
     <Compile Include="frm_inicioPostulante.aspx.vb">
       <DependentUpon>frm_inicioPostulante.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frm_Login.aspx.designer.vb">
       <DependentUpon>frm_Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="frm_Login.aspx.vb">
       <DependentUpon>frm_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_misPostulaciones.aspx.designer.vb">
+      <DependentUpon>frm_misPostulaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_misPostulaciones.aspx.vb">
+      <DependentUpon>frm_misPostulaciones.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_RegistroEmpresas.aspx.designer.vb">

@@ -42,7 +42,7 @@
              <td class="style2">
                  Apellido/s</td>
              <td>
-                 <asp:TextBox ID="txt_apellido" runat="server"></asp:TextBox>
+                 <asp:TextBox ID="txt_apellido"  runat="server"></asp:TextBox>
              </td>
          </tr>
          <tr>
