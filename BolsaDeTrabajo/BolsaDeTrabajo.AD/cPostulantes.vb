@@ -25,10 +25,6 @@ Public Class cPostulantes
         Return oDatabase.ExecuteScalar("PostulantesAgregarDatosContacto", IdUsuario, TelCel, TelFijo, IdLocalidad, Calle, Numero)
     End Function
 
-    Public Function BuscarMail(ByVal IdUsuario As Integer) As DataSet
-        Return oDatabase.ExecuteDataSet("PostulanteBuscarEmail", IdUsuario)
-    End Function
-
     Public Function BuscarPorUsuario(ByVal IdUsuario As Integer) As DataSet
         Return oDatabase.ExecuteDataSet("PostulanteBuscarPorUsuario", IdUsuario)
     End Function
