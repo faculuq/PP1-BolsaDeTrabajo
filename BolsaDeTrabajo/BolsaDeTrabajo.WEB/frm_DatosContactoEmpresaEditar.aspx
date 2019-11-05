@@ -8,6 +8,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="styles.css" type="text/css" />
   <link rel="icon" href="jobs_craiglist_icon-icons.com_51083.ico">
+    <style type="text/css">
+        .style1
+        {
+            height: 23px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -104,14 +110,14 @@
                  &nbsp;</td>
          </tr>
          <tr>
-             <td>
-                 &nbsp;</td>
-             <td>
-                 &nbsp;</td>
-             <td>
-                 &nbsp;</td>
-             <td>
-                 &nbsp;</td>
+             <td class="style1">
+                 </td>
+             <td class="style1">
+                 </td>
+             <td class="style1">
+                 </td>
+             <td class="style1">
+                 </td>
          </tr>
          <tr>
              <td>

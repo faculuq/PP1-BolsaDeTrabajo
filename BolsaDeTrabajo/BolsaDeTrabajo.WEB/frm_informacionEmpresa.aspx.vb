@@ -5,6 +5,12 @@ Public Class frm
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
+        If Page.IsPostBack = False Then
+
+            CargarDocumentos()
+            CargarRubro()
+        End If
+
     End Sub
 
     Protected Sub cmd_GuardarDatos_Click(sender As Object, e As EventArgs) Handles cmd_GuardarDatos.Click
@@ -25,7 +31,32 @@ Public Class frm
 
     End Sub
 
-    Private Sub CargarRubros()
+
+    Private Sub CargarDocumentos()
+
+        Dim ods As New DataSet
+        Dim oTipoDoc As New cTiposDocumentos
+
+        ods = oTipoDoc.BuscarTodos()
+
+        cbo_tipoDoc.DataSource = ods.Tables(0)
+        cbo_tipoDoc.DataTextField = ods.Tables(0).Columns("Nombre").ToString
+        cbo_tipoDoc.DataValueField = ods.Tables(0).Columns("IdTipoDocumento").ToString
+        cbo_tipoDoc.DataBind()
+
+    End Sub
+
+    Private Sub CargarRubro()
+
+        Dim ods As New DataSet
+        Dim oRubro As New cRubrosLaborales
+
+        ods = oRubro.BuscarTodos()
+
+        cbo_IdRubro.DataSource = ods.Tables(0)
+        cbo_IdRubro.DataTextField = ods.Tables(0).Columns("Nombre").ToString
+        cbo_IdRubro.DataValueField = ods.Tables(0).Columns("IdRubro").ToString
+        cbo_IdRubro.DataBind()
 
     End Sub
 

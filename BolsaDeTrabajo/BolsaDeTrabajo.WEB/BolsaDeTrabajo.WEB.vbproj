@@ -213,7 +213,7 @@
     </Compile>
     <Compile Include="frm_InformacionEmpresa.aspx.vb">
       <DependentUpon>frm_InformacionEmpresa.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frm_datosContacto.aspx.designer.vb">
       <DependentUpon>frm_datosContacto.aspx</DependentUpon>
@@ -248,6 +248,7 @@
     </Compile>
     <Compile Include="frm_InformacionEmpresaEditar.aspx.vb">
       <DependentUpon>frm_InformacionEmpresaEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frm_inicioEmpresa.aspx.designer.vb">
       <DependentUpon>frm_inicioEmpresa.aspx</DependentUpon>
