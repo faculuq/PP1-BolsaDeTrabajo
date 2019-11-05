@@ -17,4 +17,8 @@ Public Class cAvisos
         Return oDatabase.ExecuteDataSet("AvisosBuscar")
     End Function
 
+    Public Function Postularse(ByVal IdPostulante As Integer, ByVal IdAviso As Integer) As Double
+        Return oDatabase.ExecuteScalar("AvisosPostularse", IdPostulante, IdAviso)
+    End Function
+
 End Class
