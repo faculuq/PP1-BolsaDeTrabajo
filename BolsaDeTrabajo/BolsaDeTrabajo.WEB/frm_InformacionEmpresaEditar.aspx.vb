@@ -52,7 +52,7 @@ Public Class frm_InformacionEmpresaEditar
         Dim ods As New DataSet
         Dim oEmpresa As New cEmpresas
 
-        ods = oEmpresa.EmpresaBuscarPorUsuario(Session("IdUsuario"))
+        ods = oEmpresa.BuscarPorUsuario(Session("IdUsuario"))
 
         If ods.Tables(0).Rows.Count > 0 Then
 
