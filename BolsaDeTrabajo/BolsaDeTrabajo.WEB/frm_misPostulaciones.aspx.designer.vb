@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frm_inicioPostulante
+Partial Public Class frm_misPostulaciones
 
     '''<summary>
     '''Head1 control.
@@ -39,13 +39,4 @@ Partial Public Class frm_inicioPostulante
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txt_busqueda As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Repeater1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
 End Class
