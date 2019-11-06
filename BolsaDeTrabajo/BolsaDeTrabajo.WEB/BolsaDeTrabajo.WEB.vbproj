@@ -107,6 +107,7 @@
     <Content Include="frm_inicioEmpresa.aspx" />
     <Content Include="frm_inicioPostulante.aspx" />
     <Content Include="frm_Login.aspx" />
+    <Content Include="frm_MisAvisos.aspx" />
     <Content Include="frm_misPostulaciones.aspx" />
     <Content Include="frm_RegistroEmpresas.aspx" />
     <Content Include="frm_RegistroPostulante.aspx" />
@@ -270,6 +271,13 @@
     </Compile>
     <Compile Include="frm_Login.aspx.vb">
       <DependentUpon>frm_Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_MisAvisos.aspx.designer.vb">
+      <DependentUpon>frm_MisAvisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MisAvisos.aspx.vb">
+      <DependentUpon>frm_MisAvisos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_misPostulaciones.aspx.designer.vb">

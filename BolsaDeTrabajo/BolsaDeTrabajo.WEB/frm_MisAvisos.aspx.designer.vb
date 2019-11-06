@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frm_inicioEmpresa
+Partial Public Class frm_MisAvisos
 
     '''<summary>
     '''Control Head1.
@@ -39,13 +39,4 @@ Partial Public Class frm_inicioEmpresa
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txt_busqueda As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control Repeater1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
 End Class
