@@ -108,7 +108,7 @@ Public Class frm_InformacionEmpresaEditar
 
             oEmpresas.GuardarInformacion(Session("IdUsuario"), txt_nombre.Text, txt_RazonSocial.Text, cbo_tipoDoc.SelectedValue, txt_numeroDoc.Text, txt_Fundacion.Text, cbo_IdRubro.SelectedValue)
             Response.Redirect("frm_datosContactoEmpresa.aspx")
-            MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
+            'MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
 
         Else
 

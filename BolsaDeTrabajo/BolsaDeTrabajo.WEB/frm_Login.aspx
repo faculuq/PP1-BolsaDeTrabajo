@@ -79,14 +79,14 @@
             </tr>
             <tr>
                 <td class="style1" colspan="2">
-                <a href= "frm_RegistroPostulante">Registrarse.</a>
+                <a href= "frm_RegistroPostulante.aspx">Registrarse.</a>
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>
             </tr>
             <tr>
                 <td class="style1" colspan="2">
-                <a href= "frm_RegistroEmpresa">Registrarse como Empresa.</a>
+                <a href= "frm_RegistroEmpresas.aspx">Registrarse como Empresa.</a>
                     &nbsp;</td>
                 <td>
                     &nbsp;</td>

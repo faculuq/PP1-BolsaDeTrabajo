@@ -92,6 +92,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="frm_crearAvisos.aspx" />
     <Content Include="frm_datosContactoEditarP.aspx" />
     <Content Include="frm_DatosContactoEmpresa.aspx" />
     <Content Include="frm_DatosContactoEmpresaEditar.aspx" />
@@ -108,7 +109,6 @@
     <Content Include="frm_inicioPostulante.aspx" />
     <Content Include="frm_Login.aspx" />
     <Content Include="frm_MisAvisos.aspx" />
-    <Content Include="frm_misPostulaciones.aspx" />
     <Content Include="frm_RegistroEmpresas.aspx" />
     <Content Include="frm_RegistroPostulante.aspx" />
     <Content Include="Styles\Site.css" />
@@ -167,6 +167,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_crearAvisos.aspx.designer.vb">
+      <DependentUpon>frm_crearAvisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_crearAvisos.aspx.vb">
+      <DependentUpon>frm_crearAvisos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_datosContactoEditarP.aspx.designer.vb">
       <DependentUpon>frm_datosContactoEditarP.aspx</DependentUpon>
@@ -278,13 +285,6 @@
     </Compile>
     <Compile Include="frm_MisAvisos.aspx.vb">
       <DependentUpon>frm_MisAvisos.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="frm_misPostulaciones.aspx.designer.vb">
-      <DependentUpon>frm_misPostulaciones.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="frm_misPostulaciones.aspx.vb">
-      <DependentUpon>frm_misPostulaciones.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="frm_RegistroEmpresas.aspx.designer.vb">

@@ -19,7 +19,7 @@
     <form id="form1" runat="server">
    <ul id="saturday">
   <li><a href="frm_informacionEmpresa.aspx" ><span>Informacion Empresa</span></a></li>
-  <li><a href="frm_datosContactoEmpresa.aspx" ><span>Datos de Contacto Empresa</span></a></li>
+  <li><a href="frm_datosContactoEmpresa.aspx" class="current"><span>Datos de Contacto Empresa</span></a></li>
  
  </ul><br />
  <div>

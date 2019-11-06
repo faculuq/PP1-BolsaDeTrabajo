@@ -88,83 +88,91 @@ To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.Head1">
 	<summary>
-Control Head1.
+Head1 control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.form1">
 	<summary>
-Control form1.
+form1 control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.txt_nombre">
 	<summary>
-Control txt_nombre.
+txt_nombre control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.txt_RazonSocial">
 	<summary>
-Control txt_RazonSocial.
+txt_RazonSocial control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.cbo_tipoDoc">
 	<summary>
-Control cbo_tipoDoc.
+cbo_tipoDoc control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.txt_numeroDoc">
 	<summary>
-Control txt_numeroDoc.
+txt_numeroDoc control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.txt_Fundacion">
 	<summary>
-Control txt_Fundacion.
+txt_Fundacion control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.cbo_IdRubro">
 	<summary>
-Control cbo_IdRubro.
+cbo_IdRubro control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.cmd_GuardarDatos">
 	<summary>
-Control cmd_GuardarDatos.
+cmd_GuardarDatos control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_InformacionEmpresaEditar.cmdEditarInformacion">
 	<summary>
-Control cmdEditarInformacion.
+cmdEditarInformacion control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_inicioEmpresa.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_inicioEmpresa.form1">
 	<summary>
@@ -174,9 +182,9 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.frm_inicioEmpresa.lbl_nombre">
+</member><member name="F:BolsaDeTrabajo.WEB.frm_inicioEmpresa.Repeater1">
 	<summary>
-lbl_nombre control.
+Repeater1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -489,99 +497,99 @@ To modify move field declaration from designer file to code-behind file.
 	<remarks></remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.Head1">
 	<summary>
-Control Head1.
+Head1 control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.form1">
 	<summary>
-Control form1.
+form1 control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.txt_email">
 	<summary>
-Control txt_email.
+txt_email control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.txt_telFijo">
 	<summary>
-Control txt_telFijo.
+txt_telFijo control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cbo_pais">
 	<summary>
-Control cbo_pais.
+cbo_pais control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cbo_provincia">
 	<summary>
-Control cbo_provincia.
+cbo_provincia control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cbo_depto">
 	<summary>
-Control cbo_depto.
+cbo_depto control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cbo_localidad">
 	<summary>
-Control cbo_localidad.
+cbo_localidad control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.txt_calle">
 	<summary>
-Control txt_calle.
+txt_calle control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.txt_numero">
 	<summary>
-Control txt_numero.
+txt_numero control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cmb_cargarE">
 	<summary>
-Control cmb_cargarE.
+cmb_cargarE control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_DatosContactoEmpresaEditar.cmdEditarInformacion">
 	<summary>
-Control cmdEditarInformacion.
+cmdEditarInformacion control.
 </summary>
 	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_inicioPostulante.Head1">
 	<summary>
@@ -607,7 +615,39 @@ txt_busqueda control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_inicioPostulante.cmb_buscar">
+	<summary>
+cmb_buscar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_inicioPostulante.Repeater1">
+	<summary>
+Repeater1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_MisAvisos.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_MisAvisos.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:BolsaDeTrabajo.WEB.frm_MisAvisos.Repeater1">
 	<summary>
 Repeater1 control.
 </summary>
@@ -1198,30 +1238,6 @@ Control cmd_GuardarDatos.
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.frm_misPostulaciones.Head1">
-	<summary>
-Head1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.frm_misPostulaciones.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:BolsaDeTrabajo.WEB.frm_misPostulaciones.txt_busqueda">
-	<summary>
-txt_busqueda control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member><member name="F:BolsaDeTrabajo.WEB.frm_datosPersonales.form1">
 	<summary>

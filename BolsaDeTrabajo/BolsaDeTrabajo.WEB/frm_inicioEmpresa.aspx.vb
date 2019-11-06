@@ -1,8 +1,28 @@
-﻿Public Class frm_inicioEmpresa
+﻿Imports BolsaDeTrabajo.AD
+
+Public Class frm_inicioEmpresa
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
+        BuscarAvisos()
+
     End Sub
+
+    Private Sub BuscarAvisos()
+
+        Dim ods As New DataSet
+        Dim oAviso As New cAvisos
+
+
+        ods = oAviso.BuscarAvisos
+
+        Me.Repeater1.DataMember = "IdAvisoPublicado"
+        Me.Repeater1.DataSource = ods.Tables(0)
+        Me.Repeater1.DataBind()
+
+    End Sub
+
+
 
 End Class

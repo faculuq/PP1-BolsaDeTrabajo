@@ -25,10 +25,10 @@ Public Class frm_RegistroPostulante
                 Session("IdUsuario") = iduser
                 idpos = oPostulante.Agregar(iduser)
                 Session("IdPostulante") = idpos
-                oEstudio.Agregar(idpos)
-                oExperiencia.Agregar(idpos)
+                oEstudio.Agregar(Session("IdPostulante"))
+                oExperiencia.Agregar(Session("IdPostulante"))
                 Response.Redirect("frm_datosPersonales.aspx")
-                MsgBox("Registro Correcto", vbInformation, "Resgistrarse")
+                '  MsgBox("Registro Correcto", vbInformation, "Resgistrarse")
 
             Else
 
