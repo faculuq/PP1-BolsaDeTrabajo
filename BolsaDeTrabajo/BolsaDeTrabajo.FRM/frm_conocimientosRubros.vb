@@ -33,7 +33,7 @@ Public Class frm_conocimientosRubros
                 Case EstadodelFormulario.eConsulta
 
                     Limpiar()
-                    DesHabililarEdicion()
+                    DesHabilitarEdicion()
                     DesHabililarComandos()
                     cmb_agregar.Enabled = True
                     cmb_aceptar.Enabled = False
@@ -179,7 +179,7 @@ Public Class frm_conocimientosRubros
 
     End Sub
 
-    Private Sub DesHabililarEdicion()
+    Private Sub DesHabilitarEdicion()
 
         txt_id.Enabled = False
         txt_nombre.Enabled = False

@@ -43,12 +43,12 @@
          </tr>
          <tr>
              <td class="style1">
-                 Titulo</td>
+                 Título</td>
              <td>
                  <asp:TextBox ID="txt_titulo" runat="server"></asp:TextBox>
              </td>
              <td>
-                 Area de Estudio</td>
+                 Área de Estudio</td>
              <td>
                  <asp:DropDownList ID="cbo_areaEstudio" runat="server" Height="16px" 
                      Width="128px">
@@ -57,7 +57,7 @@
          </tr>
          <tr>
              <td class="style1">
-                 Institucion</td>
+                 Institución</td>
              <td>
                  <asp:TextBox ID="txt_institucion" runat="server"></asp:TextBox>
              </td>

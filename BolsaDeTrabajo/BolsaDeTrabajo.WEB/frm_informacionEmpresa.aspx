@@ -96,7 +96,7 @@
                  <asp:TextBox ID="txt_nombre" runat="server"></asp:TextBox>
              </td>
              <td class="style2">
-                 Razon Social</td>
+                 Razón Social</td>
              <td class="style4">
                  <asp:TextBox ID="txt_RazonSocial" runat="server"></asp:TextBox>
              </td>
@@ -111,7 +111,7 @@
                  </asp:DropDownList>
              </td>
              <td class="style2">
-                 Numero de Documento</td>
+                 Número de Documento</td>
              <td class="style4">
                  <asp:TextBox ID="txt_numeroDoc" runat="server"></asp:TextBox>
              </td>
@@ -120,7 +120,7 @@
          </tr>
          <tr>
              <td class="style1">
-                 Fecha Fundacion </td>
+                 Fecha Fundación </td>
              <td class="style3">
                  <asp:TextBox ID="txt_Fundacion" runat="server" TextMode="Date"></asp:TextBox>
              </td>

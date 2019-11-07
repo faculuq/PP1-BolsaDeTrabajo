@@ -36,7 +36,7 @@
                  <asp:TextBox ID="txt_telFijo" runat="server"></asp:TextBox>
              </td>
              <td>
-                 Pais</td>
+                 País</td>
              <td>
                  <asp:DropDownList ID="cbo_pais" runat="server" Height="16px" Width="128px">
                  </asp:DropDownList>
@@ -75,7 +75,7 @@
              <td>
                  &nbsp;</td>
              <td>
-                 Numero</td>
+                 Número</td>
              <td>
                  <asp:TextBox ID="txt_numero" runat="server"></asp:TextBox>
              </td>

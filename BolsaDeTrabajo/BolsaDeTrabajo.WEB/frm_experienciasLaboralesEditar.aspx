@@ -42,7 +42,7 @@
      <table style="width:100%;">
          <tr>
              <td class="style2">
-                 Area Laboral</td>
+                 Área Laboral</td>
              <td class="style1">
                  <asp:DropDownList ID="cbo_areaLaboral" runat="server" Height="16px" 
                      Width="128px">

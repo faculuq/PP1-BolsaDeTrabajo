@@ -28,7 +28,7 @@
             </tr>
             <tr>
                 <td class="style1">
-                    Contrasena</td>
+                    Contraseña</td>
                 <td>
                     <asp:TextBox ID="txt_pass1" runat="server" TextMode="Password"></asp:TextBox>
                 </td>
@@ -37,7 +37,7 @@
             </tr>
             <tr>
                 <td class="style1">
-                    Confirmar Contrasena</td>
+                    Confirmar Contraséña</td>
                 <td>
                     <asp:TextBox ID="txt_pass2" runat="server" TextMode="Password"></asp:TextBox>
                 </td>

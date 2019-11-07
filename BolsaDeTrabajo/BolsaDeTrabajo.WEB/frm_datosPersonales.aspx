@@ -53,7 +53,7 @@
                  </asp:DropDownList>
              </td>
              <td class="style2">
-                 Numero de Documento</td>
+                 Número de Documento</td>
              <td>
                  <asp:TextBox ID="txt_numeroDoc" runat="server"></asp:TextBox>
              </td>
@@ -67,7 +67,7 @@
                  </asp:DropDownList>
              </td>
              <td class="style2">
-                 Situacion Laboral</td>
+                 Situación Laboral</td>
              <td>
                  <asp:DropDownList ID="cbo_sitLaboral" runat="server" Height="16px" 
                      Width="128px">

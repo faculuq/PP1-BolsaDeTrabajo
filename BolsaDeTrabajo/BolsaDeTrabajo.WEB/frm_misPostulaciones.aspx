@@ -13,8 +13,8 @@
     <form id="form1" runat="server">
     <ul id="saturday">
    <li><a href="frm_inicioPostulante.aspx" ><span>Inicio</span></a></li>
-  <li><a href="frm_datosPersonalesEditarP.aspx" ><span>Editar Informacion</span></a></li>
-  <li><span><a href="frm_datosEstudioEditar.aspx"class="current">Mis Postulaciones</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;&nbsp; </li>
+  <li><a href="frm_datosPersonalesEditarP.aspx" ><span>Editar Información</span></a></li>
+  <li><span><a href="frm_datosEstudioEditar.aspx"class="current">Mis Postulaciónes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&nbsp;&nbsp; </li>
         <li>
             <asp:TextBox ID="txt_busqueda" runat="server" Height="22px" Width="162px"></asp:TextBox>
         </li>

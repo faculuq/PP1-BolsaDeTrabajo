@@ -70,7 +70,7 @@
                  <asp:TextBox ID="txt_calle" runat="server"></asp:TextBox>
              </td>
              <td rowspan "2">
-                 Numero</td>
+                 Número</td>
              <td>
                  <asp:TextBox ID="txt_numero" runat="server"></asp:TextBox>
              </td>

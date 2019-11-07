@@ -33,7 +33,7 @@
      <table style="width:100%;">
          <tr>
              <td>
-                 Area Laboral</td>
+                 Área Laboral</td>
              <td>
                  <asp:DropDownList ID="cbo_areaLaboral" runat="server" Height="16px" 
                      Width="128px">
@@ -63,7 +63,7 @@
          </tr>
          <tr>
              <td>
-                 Descripcion de Responsabilidades</td>
+                 Descripción de Responsabilidades</td>
              <td colspan="3">
                  <asp:TextBox ID="txt_descripcion" runat="server" Height="53px" Width="325px"></asp:TextBox>
              </td>
