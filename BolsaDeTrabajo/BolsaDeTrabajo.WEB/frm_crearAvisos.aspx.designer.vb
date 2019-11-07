@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class frm_inicioPostulante
+Partial Public Class frm_crearAvisos
 
     '''<summary>
     '''Head1 control.
@@ -32,29 +32,47 @@ Partial Public Class frm_inicioPostulante
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''txt_busqueda control.
+    '''txt_puesto control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txt_busqueda As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txt_puesto As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''cmb_buscar control.
+    '''txt_requisitos control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents cmb_buscar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txt_requisitos As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Repeater1 control.
+    '''txt_palabra1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Repeater1 As Global.System.Web.UI.WebControls.Repeater
+    Protected WithEvents txt_palabra1 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txt_palabra2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txt_palabra2 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''cmb_publicar control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents cmb_publicar As Global.System.Web.UI.WebControls.Button
 End Class

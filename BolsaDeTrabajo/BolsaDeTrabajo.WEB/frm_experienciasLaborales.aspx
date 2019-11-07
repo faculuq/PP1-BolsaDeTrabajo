@@ -36,14 +36,14 @@
                  Área Laboral</td>
              <td>
                  <asp:DropDownList ID="cbo_areaLaboral" runat="server" Height="16px" 
-                     Width="128px">
+                     Width="128px" AutoPostBack="True">
                  </asp:DropDownList>
              </td>
              <td>
                  Puesto</td>
              <td>
                  <asp:DropDownList ID="cbo_puestoLaboral" runat="server" Height="16px" 
-                     Width="128px">
+                     Width="128px" AutoPostBack="True">
                  </asp:DropDownList>
              </td>
          </tr>

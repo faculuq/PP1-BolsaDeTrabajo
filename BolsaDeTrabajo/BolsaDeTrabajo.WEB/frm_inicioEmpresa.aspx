@@ -16,10 +16,9 @@
    <li><a href="frm_inicioEmpresa.aspx"class="current" ><span>Inicio</span></a></li>
   <li><a href="frm_InformacionEmpresaEditar.aspx" ><span>Editar Informacion</span></a></li>
   <li><a href="frm_MisAvisos.aspx"><span>Mis Avisos</span></a></li>
+   <li><a href="frm_crearAvisos.aspx"><span>Crear Aviso</span></a></li>
        
-            <asp:TextBox ID="txt_busqueda" runat="server" Height="22px" Width="185px" 
-                placeholder="Buscar Palabra Clave"></asp:TextBox>
-        </li>
+            </li>
 
  </ul><br />
  <div>
@@ -28,15 +27,15 @@
                <div >
                    
                    <asp:Panel ID="Panel1" runat="server">
-                       <asp:Label ID="lbl1" Text="Nombre Empresa" runat="server"></asp:Label><asp:Label ID="lbl_empresa" Text="" runat="server"></asp:Label>
-                   <asp:Label ID="Label1" Text='<% #Eval("IdEmpresa") %>' runat="server"></asp:Label><br />
-                   <asp:Label ID="lbl2" Text="Puesto" runat="server"></asp:Label><asp:Label ID="lbl_descripcion" Text="" runat="server"></asp:Label>
+                       <asp:Label ID="lbl1" Text="Nombre Empresa: " runat="server"></asp:Label><asp:Label ID="lbl_empresa" Text="" runat="server"></asp:Label>
+                   <asp:Label ID="Label1" Text='<% #Eval("Nombre") %>' runat="server"></asp:Label><br />
+                   <asp:Label ID="lbl2" Text="Puesto: " runat="server"></asp:Label><asp:Label ID="lbl_descripcion" Text="" runat="server"></asp:Label>
                    <asp:Label ID="Label2" Text='<% #Eval("Descripcion") %>' runat="server"></asp:Label><br />
-                   <asp:Label ID="lbl3" Text="Requerimentos" runat="server"></asp:Label><asp:Label ID="lbl_requerimentos" Text="" runat="server"></asp:Label>
+                   <asp:Label ID="lbl3" Text="Requerimentos: " runat="server"></asp:Label><asp:Label ID="lbl_requerimentos" Text="" runat="server"></asp:Label>
                    <asp:Label ID="Label3" Text='<% #Eval("Requisitos") %>' runat="server"></asp:Label><br />
                        
                    </asp:Panel>
-                   <asp:Button ID="cmb_postularse" runat="server" Text="Postularse" />
+                   
                        <br /><br />
                </div>
            </ItemTemplate>

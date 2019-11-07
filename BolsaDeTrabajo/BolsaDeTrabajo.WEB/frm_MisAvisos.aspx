@@ -13,13 +13,32 @@
 <body>
     <form id="form1" runat="server">
     <ul id="saturday">
-    <li><a href="frm_inicioEmpresa.aspx"class="current" ><span>Inicio</span></a></li>
+    <li><a href="frm_inicioEmpresa.aspx" ><span>Inicio</span></a></li>
   <li><a href="frm_InformacionEmpresaEditar.aspx" ><span>Editar Informacion</span></a></li>
-  <li><a href="frm_MisAvisos.aspx"><span>Mis Avisos</span></a></li>
-       
-            <asp:TextBox ID="txt_busqueda" runat="server" Height="22px" Width="162px"></asp:TextBox>
-      
- </ul><br />
+  <li><a href="frm_MisAvisos.aspx" class="current"><span>Mis Avisos</span></a></li>
+   <li><a href="frm_crearAvisos.aspx"><span>Crear Aviso</span></a></li>
+      </ul><br /> 
+       <div>
+            <asp:Repeater ID="Repeater1" runat="server">
+     <ItemTemplate>
+               <div >
+                   
+                   <asp:Panel ID="Panel1" runat="server">
+                       <asp:Label ID="lbl1" Text="Nombre Empresa: " runat="server"></asp:Label><asp:Label ID="lbl_empresa" Text="" runat="server"></asp:Label>
+                   <asp:Label ID="Label1" Text='<% #Eval("Nombre") %>' runat="server"></asp:Label><br />
+                   <asp:Label ID="lbl2" Text="Puesto: " runat="server"></asp:Label><asp:Label ID="lbl_descripcion" Text="" runat="server"></asp:Label>
+                   <asp:Label ID="Label2" Text='<% #Eval("Descripcion") %>' runat="server"></asp:Label><br />
+                   <asp:Label ID="lbl3" Text="Requerimentos: " runat="server"></asp:Label><asp:Label ID="lbl_requerimentos" Text="" runat="server"></asp:Label>
+                   <asp:Label ID="Label3" Text='<% #Eval("Requisitos") %>' runat="server"></asp:Label><br />
+                       
+                   </asp:Panel>
+                   
+                       <br /><br />
+               </div>
+           </ItemTemplate>
+     </asp:Repeater>
+      </div>
+ 
     </form>
 </body>
 </html>
