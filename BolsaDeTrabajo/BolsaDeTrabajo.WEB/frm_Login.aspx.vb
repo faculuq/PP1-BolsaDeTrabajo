@@ -24,7 +24,7 @@ Public Class frm_Login
             Session("IdUsuario") = oDs.Tables(0).Rows(0).Item("IdUsuario")
             
             'crear procedure que busque el id al iniciar el frm
-
+            
         Else
 
             MsgBox("El usuario o contraseña, no coinciden con un usuario válido", MsgBoxStyle.Exclamation, "Iniciar Sesión")
@@ -32,11 +32,9 @@ Public Class frm_Login
         End If
 
         If oDs.Tables(0).Rows(0).Item("IdTipoUsuario") = 1 Then
-
             odse = oEmpresa.BuscarIdEmpresa(Session("IdUsuario"))
-            Session("IdEmpresa") = odsp.Tables(0).Rows(0).Item("IdEmpresa")
+            Session("IdEmpresa") = odse.Tables(0).Rows(0).Item("IdEmpresa")
             Response.Redirect("frm_inicioEmpresa.aspx")
-
         Else
             odsp = oPostulante.BuscarIdPostulante(Session("IdUsuario"))
             Session("IdPostulante") = odsp.Tables(0).Rows(0).Item("IdPostulante")

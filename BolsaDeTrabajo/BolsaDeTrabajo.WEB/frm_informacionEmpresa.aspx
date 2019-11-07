@@ -84,7 +84,7 @@
 <body>
     <form id="form1" runat="server">
    <ul id="saturday">
-  <li><a href="frm_informacionEmpresa.aspx" ><span>informacionEmpresa</span></a></li>
+  <li><a href="frm_informacionEmpresa.aspx" class = "current"><span>informacionEmpresa</span></a></li>
   <li><a href="frm_datosContactoEmpresa.aspx" ><span>Datos de Contacto Empresa</span></a></li>
  </ul><br />
  <div>
@@ -147,10 +147,10 @@
          </tr>
          <tr>
              <td class="style1">
-     &nbsp;</td>
-             <td class="style3">
                  <asp:Button ID="cmd_GuardarDatos" runat="server" Text="Guardar Cambios" />
-             <td class="style2">
+             </td>
+             <td class="style3">
+                 &nbsp;<td class="style2">
                  &nbsp;</td>
              <td class="style4">
                  &nbsp;</td>

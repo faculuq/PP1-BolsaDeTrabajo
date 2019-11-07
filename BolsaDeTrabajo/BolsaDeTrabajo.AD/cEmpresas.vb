@@ -17,20 +17,20 @@ Public Class cEmpresas
         Return oDatabase.ExecuteScalar("EmpresasAgregar", IdUsuario)
     End Function
 
-    Public Function GuardarInformacion(ByVal IdUsuario As Integer, ByVal Nombre As String, ByVal RazonSocial As String, ByVal IdTipoDoc As Integer, ByVal NumeroDocumento As Integer, ByVal IdRubro As Integer, ByVal FechaFundacion As Date) As Double
+    Public Function GuardarInformacion(ByVal IdUsuario As Integer, ByVal Nombre As String, ByVal RazonSocial As String, ByVal IdTipoDoc As Integer, ByVal NumeroDocumento As String, ByVal IdRubro As Integer, ByVal FechaFundacion As Date) As Double
         Return oDatabase.ExecuteScalar("EmpresasGuardarInformacion", IdUsuario, Nombre, RazonSocial, IdTipoDoc, NumeroDocumento, FechaFundacion, IdRubro)
     End Function
 
-    Public Function GuardarDatosContacto(ByVal IdUsuario As Integer, ByVal Telefono As Integer, ByVal IdLocalidad As Integer, ByVal Calle As Integer, ByVal Numero As Integer) As Double
+    Public Function GuardarDatosContacto(ByVal IdUsuario As Integer, ByVal Telefono As Integer, ByVal IdLocalidad As Integer, ByVal Calle As String, ByVal Numero As String) As Double
         Return oDatabase.ExecuteScalar("EmpresasGuardarDatosContacto", IdUsuario, Telefono, IdLocalidad, Calle, Numero)
     End Function
 
     Public Function BuscarPorUsuario(ByVal IdUsuario As Integer) As DataSet
-        Return oDatabase.ExecuteScalar("EmpresaBuscarPorUsuario", IdUsuario)
+        Return oDatabase.ExecuteDataSet("EmpresaBuscarPorUsuario", IdUsuario)
     End Function
 
     Public Function BuscarIdEmpresa(ByVal IdUsuario As Integer) As DataSet
-        Return oDatabase.ExecuteScalar("EmpresaBuscarIdEmpresa", IdUsuario)
+        Return oDatabase.ExecuteDataSet("EmpresaBuscarIdEmpresa", IdUsuario)
     End Function
 
 End Class

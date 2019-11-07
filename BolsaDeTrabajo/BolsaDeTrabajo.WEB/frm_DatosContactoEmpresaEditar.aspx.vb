@@ -99,11 +99,10 @@ Public Class frm_DatosContactoEmpresaEditar
 
         If ods.Tables(0).Rows.Count > 0 Then
 
-            txt_telFijo.Text = (ods.Tables(0).Rows(0).Item("TelefonoFijo"))
-            cbo_pais.Text = (ods.Tables(0).Rows(0).Item("IdPais"))
-            cbo_provincia.Text = (ods.Tables(0).Rows(0).Item("IdProvincia"))
+            txt_telFijo.Text = (ods.Tables(0).Rows(0).Item("Telefono"))
+
             cbo_localidad.Text = (ods.Tables(0).Rows(0).Item("IdLocalidad"))
-            cbo_depto.Text = (ods.Tables(0).Rows(0).Item("IdDepartamento"))
+
             txt_calle.Text = (ods.Tables(0).Rows(0).Item("Calle"))
             txt_numero.Text = (ods.Tables(0).Rows(0).Item("Numero"))
 

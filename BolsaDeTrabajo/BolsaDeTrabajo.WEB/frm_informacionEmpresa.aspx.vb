@@ -19,9 +19,9 @@ Public Class frm
 
         If txt_nombre.Text <> Nothing And txt_RazonSocial.Text <> Nothing And cbo_tipoDoc.SelectedValue <> Nothing And txt_numeroDoc.Text <> Nothing And txt_Fundacion.Text <> Nothing And cbo_IdRubro.SelectedValue <> Nothing Then
 
-            oEmpresas.GuardarInformacion(Session("IdUsuario"), txt_nombre.Text, txt_RazonSocial.Text, cbo_tipoDoc.SelectedValue, txt_numeroDoc.Text, txt_Fundacion.Text, cbo_IdRubro.SelectedValue)
+            oEmpresas.GuardarInformacion(Session("IdUsuario"), txt_nombre.Text, txt_RazonSocial.Text, cbo_tipoDoc.SelectedValue, txt_numeroDoc.Text, cbo_IdRubro.SelectedValue, txt_Fundacion.Text)
             Response.Redirect("frm_datosContactoEmpresa.aspx")
-            MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
+            ' MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
 
         Else
 
@@ -55,7 +55,7 @@ Public Class frm
 
         cbo_IdRubro.DataSource = ods.Tables(0)
         cbo_IdRubro.DataTextField = ods.Tables(0).Columns("Nombre").ToString
-        cbo_IdRubro.DataValueField = ods.Tables(0).Columns("IdRubro").ToString
+        cbo_IdRubro.DataValueField = ods.Tables(0).Columns("IdRubroLaboral").ToString
         cbo_IdRubro.DataBind()
 
     End Sub
