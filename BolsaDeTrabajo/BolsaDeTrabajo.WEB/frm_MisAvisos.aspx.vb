@@ -5,7 +5,7 @@ Public Class frm_MisAvisos
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-        Session("IdEmpresa") = 1
+
         BuscarAvisos()
 
     End Sub

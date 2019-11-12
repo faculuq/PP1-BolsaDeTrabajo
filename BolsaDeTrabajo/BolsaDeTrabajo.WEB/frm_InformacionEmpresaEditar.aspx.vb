@@ -37,7 +37,7 @@ Public Class frm_InformacionEmpresaEditar
 
         cbo_IdRubro.DataSource = ods.Tables(0)
         cbo_IdRubro.DataTextField = ods.Tables(0).Columns("Nombre").ToString
-        cbo_IdRubro.DataValueField = ods.Tables(0).Columns("IdRubro").ToString
+        cbo_IdRubro.DataValueField = ods.Tables(0).Columns("IdRubroLaboral").ToString
         cbo_IdRubro.DataBind()
 
     End Sub
@@ -57,11 +57,11 @@ Public Class frm_InformacionEmpresaEditar
         If ods.Tables(0).Rows.Count > 0 Then
 
             txt_nombre.Text = (ods.Tables(0).Rows(0).Item("Nombre"))
-            txt_RazonSocial.Text = (ods.Tables(0).Rows(0).Item("RazonSociial"))
+            txt_RazonSocial.Text = (ods.Tables(0).Rows(0).Item("RazonSocial"))
             cbo_tipoDoc.SelectedValue = (ods.Tables(0).Rows(0).Item("IdTipoDocumento"))
             txt_numeroDoc.Text = (ods.Tables(0).Rows(0).Item("NumeroDocumento"))
             txt_Fundacion.Text = (ods.Tables(0).Rows(0).Item("FechaFundacion"))
-            cbo_IdRubro = (ods.Tables(0).Rows(0).Item("IdRubro"))
+            cbo_IdRubro.SelectedValue = (ods.Tables(0).Rows(0).Item("IdRubro"))
 
         End If
 

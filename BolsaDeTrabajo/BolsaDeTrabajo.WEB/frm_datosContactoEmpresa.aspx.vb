@@ -24,7 +24,8 @@ Public Class frm_DatosContactoEmpresa
 
         If txt_telFijo.Text <> Nothing And cbo_localidad.SelectedValue <> Nothing And txt_calle.Text <> Nothing And txt_numero.Text <> Nothing Then
             oEmpresas.GuardarDatosContacto(Session("IdUsuario"), txt_telFijo.Text, cbo_localidad.SelectedValue, txt_calle.Text, txt_numero.Text)
-            MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
+            'MsgBox("Datos agregados correctamente", vbInformation, "Datos Personales")
+            Response.Redirect("frm_inicioEmpresa.aspx")
         Else
             MsgBox("Complete todos los campos para continuar", vbInformation, "Datos Personales")
         End If

@@ -70,8 +70,8 @@
 <body>
     <form id="form1" runat="server">
    <ul id="saturday">
-  <li><a href="frm_informacionEmpresa.aspx"class="current" ><span>Información Empresa</span></a></li>
-  <li><a href="frm_datosContactoEmpresa.aspx" ><span>Datos de Contacto Empresa</span></a></li>
+  <li><a href="frm_informacionEmpresaEditar.aspx"class="current" ><span>Información Empresa</span></a></li>
+  <li><a href="frm_datosContactoEmpresaEditar.aspx" ><span>Datos de Contacto Empresa</span></a></li>
   <li><a href="frm_inicioEmpresa.aspx" ><span>Regresar al Inicio</span></a></li>
  </ul><br />
  <div>
@@ -101,13 +101,12 @@
                  <asp:DropDownList ID="cbo_tipoDoc" runat="server" Height="16px" Width="128px">
                  </asp:DropDownList>
              </td>
-<<<<<<< HEAD
+
              <td class="style2">
                  Número de Documento</td>
-=======
-             <td class="style1">
+     <td class="style1">
                  Numero de Documento</td>
->>>>>>> 35241fa989c2b53e9765ad5a3cd1a1b10af7d871
+
              <td class="style4">
                  <asp:TextBox ID="txt_numeroDoc" runat="server"></asp:TextBox>
              </td>

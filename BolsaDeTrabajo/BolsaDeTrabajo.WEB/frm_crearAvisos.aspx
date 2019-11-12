@@ -28,7 +28,7 @@
   <li><a href="frm_MisAvisos.aspx" ><span>Mis Avisos</span></a></li>
    <li><a href="frm_crearAvisos.aspx"class="current"><span>Crear Aviso</span></a></li>
       </ul><br /> 
-
+     
       <div>
           <table style="width:100%;">
               <tr>
