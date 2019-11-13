@@ -68,3 +68,38 @@ C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaD
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.exe
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.xml
 C:\Users\Dell\Instituto\Practica Profecionalizante I\Bolsa\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.FRM.exe.config
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.FRM.exe
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.FRM.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.FRM.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.AD.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.AD.pdb
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\bin\Debug\BolsaDeTrabajo.AD.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.vbprojResolveAssemblyReference.cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_areasEstudio.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_areasLaborales.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_categorias.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_conocimientosRubros.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_conocimientosTipos.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_departamentos.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_documentosTipos.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_estados.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_estadosEstudios.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_estudiosNiveles.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_localidades.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_paises.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_principal.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_provincias.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_puestosLaborales.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_rubrosLaborales.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.frm_situacionesLaborales.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.Resources.resources
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.vbproj.GenerateResource.Cache
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.exe
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.xml
+C:\Repositorios\PP1-BolsaDeTrabajo\BolsaDeTrabajo\BolsaDeTrabajo.FRM\obj\x86\Debug\BolsaDeTrabajo.FRM.pdb

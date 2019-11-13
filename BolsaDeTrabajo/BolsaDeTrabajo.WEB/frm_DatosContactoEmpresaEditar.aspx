@@ -20,7 +20,7 @@
    <ul id="saturday">
   <li><a href="frm_informacionEmpresaEditar.aspx" ><span>Informacion Empresa</span></a></li>
   <li><a href="frm_datosContactoEmpresaEditar.aspx" class="current"><span>Datos de Contacto Empresa</span></a></li>
- <li><a href="frm_inicioEmpresa.aspx" class="current"><span>Regresar al Inicio</span></a></li>
+ <li><a href="frm_inicioEmpresa.aspx" ><span>Regresar al Inicio</span></a></li>
 
  </ul><br />
  <div>

@@ -9,6 +9,10 @@ Public Class frm
 
             CargarDocumentos()
             CargarRubro()
+            cbo_tipoDoc.SelectedValue = 2
+            cbo_tipoDoc.Enabled = False
+
+
         End If
 
     End Sub
