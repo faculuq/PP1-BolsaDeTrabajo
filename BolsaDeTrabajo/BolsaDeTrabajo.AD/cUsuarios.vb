@@ -25,7 +25,7 @@ Public Class cUsuarios
 
     End Function
 
-     Public Function Agregar(ByVal Email As String, ByVal Password As String, ByVal IdTipo As Integer) As Double
+    Public Function Agregar(ByVal Email As String, ByVal Password As String, ByVal IdTipo As Integer) As Double
         Return oDatabase.ExecuteScalar("UsuariosAgregar", Email, Password, IdTipo)
     End Function
 
